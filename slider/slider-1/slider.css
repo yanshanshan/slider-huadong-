@@ -1,0 +1,32 @@
+.slider{
+
+}
+
+.slider-content-container{
+    position: relative;
+    border: 1px solid red;
+    width: 528px;
+    height: 211px;
+    overflow: hidden;
+}
+
+.slider-content-item{
+    position: absolute;
+    left: 0;
+    top:0;
+    width: 100%;
+    height: 100%;
+}
+
+.slider-ctrl-container{
+    text-align: center;
+    width: 528px;
+    margin-top: 20px;
+}
+
+.slider-ctrl-item{
+    padding: 15px;
+    border-radius: 100%;
+    background-color: #D64078;
+    display: inline-block;
+}
